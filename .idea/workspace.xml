@@ -61,7 +61,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/2100OS_Code.zip/ZF2-Book-Code-master/Chapter 5/client/module/Wall/view/wall/index/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="32" selection-start="3713" selection-end="3713" vertical-scroll-proportion="1.3768116">
+            <state line="13" column="29" selection-start="836" selection-end="836" vertical-scroll-proportion="0.31400967">
               <folding />
             </state>
           </provider>
@@ -113,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/source-api/module/Wall/Module.php" />
         <option value="$PROJECT_DIR$/source-api/config/application.config.php" />
         <option value="$PROJECT_DIR$/source-api/module/Common/config/module.config.php" />
         <option value="$PROJECT_DIR$/source-client/config/application.config.php" />
@@ -129,6 +128,7 @@
         <option value="$PROJECT_DIR$/source-client/module/Wall/view/wall/index/index.phtml" />
         <option value="$PROJECT_DIR$/source-client/module/Wall/src/Wall/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/code/2100OS_Code.zip/ZF2-Book-Code-master/Chapter 5/client/module/Api/src/Api/Client/ApiClient.php" />
+        <option value="$PROJECT_DIR$/code/2100OS_Code.zip/ZF2-Book-Code-master/Chapter 5/client/module/Wall/view/wall/index/index.phtml" />
       </list>
     </option>
   </component>
@@ -1234,7 +1234,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/2100OS_Code.zip/ZF2-Book-Code-master/Chapter 5/client/module/Wall/view/wall/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="32" selection-start="3713" selection-end="3713" vertical-scroll-proportion="1.3768116">
+        <state line="13" column="29" selection-start="836" selection-end="836" vertical-scroll-proportion="0.31400967">
           <folding />
         </state>
       </provider>
