@@ -24,7 +24,7 @@ class User
     protected $createdAt = null;
     protected $updatedAt = null;
     protected $feed = array();
-
+    
     public function setId($id)
     {
         $this->id = (int)$id;
@@ -71,20 +71,20 @@ class User
     {
         $this->gender = (int)$gender;
     }
-
+    
     public function setFeed($feed)
     {
         $hydrator = new ClassMethods();
-
+        
         foreach ($feed as $entry) {
-            if(array_key_exists('status', $entry)) {
+            if (array_key_exists('status', $entry)) {
                 $this->feed[] = $hydrator->hydrate($entry, new Status());
             } else if (array_key_exists('filename', $entry)) {
                 $this->feed[] = $hydrator->hydrate($entry, new Image());
             }
         }
     }
-
+    
     public function setCreatedAt($createdAt)
     {
         $this->createdAt = new \DateTime($createdAt);
@@ -139,11 +139,12 @@ class User
     {
         return $this->gender == self::GENDER_MALE? 'Male' : 'Female';
     }
-
-    public function getFeed() {
+    
+    public function getFeed()
+    {
         return $this->feed;
     }
-
+    
     public function getCreatedAt()
     {
         return $this->createdAt;
